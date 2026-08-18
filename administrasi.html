@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Data administrasi Dusun Wekas — wilayah, batas, peta, dan koordinat">
+  <title>Data Administrasi — Dusun Wekas</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header class="header">
+    <nav class="nav container">
+      <a href="index.html" class="nav__logo">
+        <span class="nav__logo-icon">🌾</span>
+        <span>Dusun Wekas</span>
+      </a>
+      <button class="nav__toggle" aria-label="Buka menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav__menu">
+        <li><a href="index.html">Beranda</a></li>
+        <li><a href="profil.html">Profil</a></li>
+        <li><a href="administrasi.html">Administrasi</a></li>
+        <li><a href="pemerintahan.html">Pemerintahan</a></li>
+        <li><a href="penduduk.html">Penduduk</a></li>
+        <li><a href="potensi.html">Potensi</a></li>
+        <li><a href="sarpras.html">Sarpras</a></li>
+        <li><a href="kegiatan.html">Kegiatan</a></li>
+        <li><a href="berita.html">Berita</a></li>
+        <li><a href="galeri.html">Galeri</a></li>
+        <li><a href="layanan.html">Layanan</a></li>
+        <li><a href="kontak.html">Kontak</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="page-hero">
+    <div class="container">
+      <p class="breadcrumb"><a href="index.html">Beranda</a> / Data Administrasi</p>
+      <h1>Data Administrasi</h1>
+      <p>Informasi wilayah dan batas administratif Dusun Wekas.</p>
+    </div>
+  </section>
+
+  <main class="page-content">
+    <div class="container">
+      <div class="grid grid--2">
+        <div class="card">
+          <h3>Informasi Wilayah</h3>
+          <table class="data-table">
+            <tbody>
+              <tr><th>Nama Dusun</th><td>Dusun Wekas</td></tr>
+              <tr><th>Desa</th><td>Desa Kaponan</td></tr>
+              <tr><th>Kecamatan</th><td>Pakis</td></tr>
+              <tr><th>Kabupaten</th><td>Magelang</td></tr>
+              <tr><th>Provinsi</th><td>Jawa Tengah</td></tr>
+              <tr><th>Kode Pos</th><td>56193</td></tr>
+              <tr><th>Negara</th><td>Indonesia</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="card">
+          <h3>Batas Wilayah</h3>
+          <table class="data-table">
+            <tbody>
+              <tr><th>Utara</th><td>Sungai / Kenanggan</td></tr>
+              <tr><th>Selatan</th><td>Sungai / Dalangan</td></tr>
+              <tr><th>Timur</th><td>Pogalan Bawah</td></tr>
+              <tr><th>Barat</th><td>Kaponan</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <div class="card mt-lg">
+        <h3>Peta Dusun &amp; Koordinat Lokasi</h3>
+        
+        <!-- Peta Google Maps Embed -->
+        <div class="map-container" style="margin-top: 15px; overflow: hidden; border-radius: 8px;">
+          <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2857.3287961975984!2d110.38488663944865!3d-7.435180911746476!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a7cfb2e3a1f41%3A0x39ef3b941b06978b!2sWekas%2C%20Kaponan%2C%20Kec.%20Pakis%2C%20Kabupaten%20Magelang%2C%20Jawa%20Tengah!5e0!3m2!1sid!2sid!4v1787067875523!5m2!1sid!2sid" 
+            width="100%" 
+            height="450" 
+            style="border:0;" 
+            allowfullscreen="" 
+            loading="lazy" 
+            referrerpolicy="strict-origin-when-cross-origin">
+          </iframe>
+        </div>
+
+        <a href="https://maps.app.goo.gl/vkU4SeJ9cspRQVxR6" target="_blank" rel="noopener" class="btn btn--sm btn--primary mt-sm" style="margin-top: 15px; display: inline-block;">
+          Buka di Google Maps
+        </a>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <span class="nav__logo-icon">🌾</span>
+        <div>
+          <strong>Dusun Wekas</strong>
+          <p>Desa Kaponan, Kec. Pakis, Kab. Magelang, Jawa Tengah</p>
+        </div>
+      </div>
+      <p class="footer__copy">&copy; 2026 Dusun Wekas. Website profil resmi dusun.</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
